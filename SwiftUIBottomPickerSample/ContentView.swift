@@ -158,6 +158,7 @@ struct SelectPicker: View {
                         .font(.title2)
                 }
             }
+            .pickerStyle(.wheel)
             .background(Color(UIColor.systemGray4))
             .labelsHidden()
         }
